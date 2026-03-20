@@ -1,5 +1,7 @@
 # house-price-prediction-ml
 🏠 House Price Prediction using Machine Learning
+
+
 📌 Overview
 
 This project develops a machine learning model to predict house prices based on structural and categorical features. The goal is to understand how different attributes influence housing prices and build an accurate predictive model.
@@ -38,13 +40,19 @@ Used 5-fold cross-validation
 
 Metric: Mean Absolute Error (MAE)
 
-📈 Results
+ 📊 Model Comparison
 
-Final Model: Random Forest
+Two models were evaluated using 5-fold cross-validation:
 
-Cross-validated MAE: ~17,600
+- Decision Tree MAE: ~24,900  
+- Random Forest MAE: ~17,600  
 
-The model demonstrates stable performance across folds, indicating good generalization.
+Random Forest significantly outperformed the Decision Tree, demonstrating better generalization.
+
+
+🧪 Evaluation Method
+
+Model performance was evaluated using 5-fold cross-validation to ensure reliable and robust error estimates.
 
 🔍 Key Insights
 
